@@ -1,0 +1,11 @@
+bootstrap:
+  servers: localhost:32768
+logging:
+  level:
+    org.apache.kafka: DEBUG
+
+kafka:
+  # This is a pain - need to understand why the docker ports dont map as expected
+  bootstrap-servers: localhost:32768
+  simples-messages:
+    topic: simple-messages
